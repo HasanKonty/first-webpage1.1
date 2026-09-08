@@ -81,6 +81,10 @@ h3 {
 }
 
 .lower-mid {
-    padding: 200px;
+    padding: 100px 200px;
     min-width: 500px;
+    background-color:#E5E7EB ;
+    font-size: 1.5rem;
+    font-weight: 100;
+    font-style: italic;
 }
