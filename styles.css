@@ -14,8 +14,8 @@ header{
     justify-content: space-between;
     background-color:#1F2937 ;
     color:#ffffff;
-    padding-inline-start:50px;
-    padding-inline-end: 50px;
+    padding-inline-start: 75px;
+    padding-inline-end: 75px;
 
 
 }
@@ -34,4 +34,30 @@ a {
 h3 {
     font-size:24px;
     color:#F9FAF8;
+}
+
+.top {
+    display: flex;
+    height: 300px;
+    justify-content: space-around;
+    padding-inline-start: 75px;
+    padding-inline-end: 75px;
+    padding-block-end: 75px;
+    background-color:#1F2937 ;
+    color:#F9FAF8;
+}
+
+.top div{
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* flex: 1 1 auto; */
+    
+}
+
+.image {
+   display: flex;
+   /* width: 400px; */
+   /* height: 250px; */
+   /* flex; 1 1 auto; */
+
 }
