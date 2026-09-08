@@ -47,12 +47,7 @@ h3 {
     color:#F9FAF8;
 }
 
-.top div{
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* flex: 1 1 auto; */
-    
-}
+
 
 .image {
    display: flex;
@@ -83,4 +78,9 @@ h3 {
     border: 4px solid rgb(81, 161, 198);
     border-radius: 12px;
 
+}
+
+.lower-mid {
+    padding: 200px;
+    min-width: 500px;
 }
