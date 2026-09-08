@@ -100,7 +100,7 @@ button{
 .blue-box{
     display: flex;
     background-color:#3b82cf ;
-    padding: 20px 40px;
+    padding: 20px 30px;
     justify-content: space-between;
     align-items: center;
     border-radius: 12px;
@@ -118,4 +118,14 @@ button{
 .blue-box p {
     margin: 0;
     color: #F9FAF8;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background-color:#1F2937 ;
+    color:#ffffff;
+    padding-block:20px;
+    font-size:0.5rem;
 }
