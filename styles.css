@@ -16,8 +16,7 @@ header{
     color:#ffffff;
     padding-inline-start: 75px;
     padding-inline-end: 75px;
-
-
+    
 }
 .upper-links {
     display: flex;
@@ -28,6 +27,7 @@ header{
 
 a {
     color: #ffffff;
+    text-decoration: none;
     
 }
 
@@ -46,19 +46,25 @@ h3 {
     padding-block-end: 75px;
     background-color:#1F2937 ;
     color:#F9FAF8;
+    gap: 20px;
 }
 
 
 
 .image  {
    display: flex;
-  
-
 }
 
-.upper-mid{
-    text-align: center;
+button{
+    background-color: #3b82cf;
+    padding: 4px 16px;
+    border-radius: 4px;
+    font-size: .7rem;
+    color: #E5E7EB;
+    border: 0px;
+ 
 }
+
 
 .all-boxes {
     display: flex;
@@ -80,10 +86,36 @@ h3 {
 }
 
 .lower-mid {
-    padding: 100px 200px;
+    padding: 100px 175px;
     min-width: 500px;
     background-color:#E5E7EB ;
     font-size: 1.5rem;
     font-weight: 100;
     font-style: italic;
+}
+
+.bot {
+    padding: 100px;
+}
+.blue-box{
+    display: flex;
+    background-color:#3b82cf ;
+    padding: 20px 40px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 12px;
+    
+}
+
+.blue-box button {
+    border: solid 1px;
+    border-color: #ffffff;
+    max-height: fit-content;
+    border-radius: 12px;
+    
+}
+
+.blue-box p {
+    margin: 0;
+    color: #F9FAF8;
 }
